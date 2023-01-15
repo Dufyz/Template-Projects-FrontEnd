@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=PT+Sans:wght@400;700&display=swap');
+
+:root {
+    --primary-color: rgb(17, 86, 102);
+    --primary-color-darker: rgb(9, 48, 56);
+}
+
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    background-color: var(--primary-color);
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8rem;
+    line-height: 1.5em;
+}
+
+.formSection {
+    max-width: 640px;
+    margin: 50px auto;
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px 50px 30px 50px;
+}
+
+.formSection h1,h2,h3,h4,h5,h6 {
+    text-transform: uppercase;
+}
+
+.formSection h1,h3,h4 {
+    text-align: center;
+}
+
+.linhaSeparadora {
+    height: 5px;
+    width: 100%;
+    margin-top: 20px;
+    background-color: var(--primary-color-darker);
+}
+
+.formTable {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.formTableImc{
+    text-align: left;
+}
+
+.formTableResultado{
+    text-align: right;
+}
+
+.formMainContent h3 {
+    font-weight: bold;
+}
+.formMainContent label, .formMainContent input{
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.formMainContent label {
+    font-weight: bold;
+}
+
+.formMainContent input {
+    font-size: 1.5rem;
+}
+
+#formMainContentPesoAlert, #formMainContentAlturaAlert {
+    width: 100%;
+    height: auto;
+    color: red;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: var(--primary-color-darker);
+}
+
+.formMainContent input:focus {
+    border-color: var(--primary-color-darker);
+    color: var(--primary-color);
+}
+
+.formMainContent button {
+    width: 100%;
+    background-color: var(--primary-color-darker);
+    color: white;
+    padding: 10px;
+    font-size: 1.8rem;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.formMainContent button:hover {
+    background-color: var(--primary-color);
+}
+
+.formResultadoData {
+    width: 100%;
+    background-color: var(--primary-color-darker);
+    color: white;
+    border: 2px solid #252F2E;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.formResultadoData:hover {
+    background-color: var(--primary-color);
+}   

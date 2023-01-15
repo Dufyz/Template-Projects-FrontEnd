@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <section class="formSection">
+        <div class="linhaSeparadora"></div>
+        <h1>Tabela IMC</h1>
+        <div class="formTable">
+            <div class="formTableIMC">
+                <h2>IMC</h2>
+                <p>Menor que <strong>18,5</strong></p>
+                <p>Entre <strong>18,5</strong> e <strong>24,9</strong></p>
+                <p>Entre <strong>25</strong> e <strong>29,9</strong></p>
+                <p>Entre <strong>30</strong> e <strong>34,9</strong></p>
+                <p>Entre <strong>35</strong> e <strong>39,9</strong></p>
+                <P>Maior que <strong>40</strong></P>
+            </div>
+
+            <div class="formTableResultado">
+                <h2>Valores</h2>
+                <p>Abaixo do peso</p>
+                <p>Peso normal</p>
+                <p>Sobrepeso</p>
+                <p>Obesidade grau 1</p>
+                <p>Obesidade grau 2</p>
+                <p>Obesidade grau 3</p>
+
+            </div>
+        </div>
+        <form action="" class="formMainContent">
+            <div class="linhaSeparadora"></div>
+            <h3>Calcule seu IMC</h3>
+            <label for="">Peso</label>
+            <input type="number" step="any" id="peso" placeholder="ex: 80">
+            <div id="formMainContentPesoAlert"></div>
+            <label for="">Altura</label>
+            <input type="number" step="any" id="altura" placeholder="ex: 1.8">
+            <div id="formMainContentAlturaAlert"></div>
+            <button type="submit">Enviar</button>
+        </form>
+        <div class="formResultado">
+            <div class="linhaSeparadora"></div>
+            <h4>Resultado</h4>
+            <p class="formResultadoData">ex: 20 (Peso normal)</p>
+        </div>
+    </section>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
