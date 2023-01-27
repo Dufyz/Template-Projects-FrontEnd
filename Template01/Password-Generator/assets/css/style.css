@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=PT+Sans:wght@400;700&display=swap');
+
+:root {
+    --primary-color: rgb(17, 86, 102);
+    --primary-color-darker: rgb(9, 48, 56);
+}
+
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    background-color: var(--primary-color);
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8rem;
+    line-height: 1.5em;
+}
+
+.formSection {
+    max-width: 640px;
+    margin: 50px auto;
+    background-color: white;
+    border-radius: 20px;
+    padding: 50px;
+}
+
+.senhaGerada {
+    text-align: center;
+    color: var(--primary-color-darker);
+    font-size: 1.5em;
+    height: auto;
+    width: 100%;
+    margin-bottom: 35px;
+    font-weight: bold;
+}
+
+.inputForm {
+    font-size: 1em;
+    height: auto;
+    width: 110px;
+}
+
+.checkboxForm {
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.formSection button {
+    width: 100%;
+    background-color: var(--primary-color-darker);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.formSection button:hover {
+    background-color: var(--primary-color);
+}
